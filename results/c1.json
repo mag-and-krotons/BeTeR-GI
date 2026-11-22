@@ -1,0 +1,98 @@
+{
+ "removed_types": 14364,
+ "trained_parameters": 117530,
+ "closes_by_level": {
+  "word + both neighbours": {
+   "removed from the whole": 2.797,
+   "never in Webster": 0.115
+  },
+  "word + word before": {
+   "removed from the whole": 17.029,
+   "never in Webster": 2.763
+  },
+  "word + word after": {
+   "removed from the whole": 22.745,
+   "never in Webster": 2.116
+  },
+  "word": {
+   "removed from the whole": 61.776,
+   "never in Webster": 18.954
+  },
+  "4 and 3 together": {
+   "removed from the whole": 89.096,
+   "never in Webster": 59.243
+  },
+  "3": {
+   "removed from the whole": 97.327,
+   "never in Webster": 84.584
+  },
+  "4": {
+   "removed from the whole": 93.329,
+   "never in Webster": 77.088
+  },
+  "1": {
+   "removed from the whole": 100.0,
+   "never in Webster": 100.0
+  }
+ },
+ "sets": {
+  "removed from the whole": {
+   "letters": 172718,
+   "reader": {
+    "closes_%": 100.0,
+    "truth_among_closures_%": 44.22,
+    "closure_size_median": 2.0,
+    "closure_size_mean": 3.61,
+    "single_closure_%": 43.78,
+    "single_right_%": 43.45,
+    "forced_label_right_of_all_%": 32.26,
+    "closed_at_level_%": {
+     "word + both neighbours": 2.8,
+     "word + word before": 14.23,
+     "word + word after": 13.36,
+     "word": 31.39,
+     "4 and 3 together": 27.32,
+     "3": 8.23,
+     "4": 0.46,
+     "1": 2.21
+    }
+   },
+   "trained": {
+    "top1_right_of_all_%": 45.16,
+    "truth_in_top_k_where_reader_closed_k_=_reader_set_size_%": 64.53,
+    "top1_right_where_reader_single_%": 50.17,
+    "top1_right_where_reader_did_not_close_%": NaN,
+    "bits_per_letter": 2.616
+   }
+  },
+  "never in Webster": {
+   "letters": 78391,
+   "reader": {
+    "closes_%": 100.0,
+    "truth_among_closures_%": 63.09,
+    "closure_size_median": 2.0,
+    "closure_size_mean": 4.82,
+    "single_closure_%": 41.48,
+    "single_right_%": 50.06,
+    "forced_label_right_of_all_%": 39.96,
+    "closed_at_level_%": {
+     "word + both neighbours": 0.11,
+     "word + word before": 2.65,
+     "word + word after": 1.58,
+     "word": 14.61,
+     "4 and 3 together": 40.3,
+     "3": 25.33,
+     "4": 3.77,
+     "1": 11.65
+    }
+   },
+   "trained": {
+    "top1_right_of_all_%": 38.34,
+    "truth_in_top_k_where_reader_closed_k_=_reader_set_size_%": 60.74,
+    "top1_right_where_reader_single_%": 43.08,
+    "top1_right_where_reader_did_not_close_%": NaN,
+    "bits_per_letter": 3.564
+   }
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "whole_letters": 16902868,
+ "book_letters": 1651054,
+ "book_words": 349150,
+ "letters_whose_word_is_in_webster": 95.25,
+ "levels": {
+  "letter in word + word before + word after": {
+   "closes": 12.56,
+   "truth_among_closures": 96.367,
+   "letters_per_closure": 1.157,
+   "one_letter_closes": 11.18,
+   "right_where_one_closes": 96.583
+  },
+  "letter in word + word before": {
+   "closes": 47.16,
+   "truth_among_closures": 96.111,
+   "letters_per_closure": 1.817,
+   "one_letter_closes": 32.39,
+   "right_where_one_closes": 96.229
+  },
+  "letter in word + word after": {
+   "closes": 46.92,
+   "truth_among_closures": 96.228,
+   "letters_per_closure": 1.967,
+   "one_letter_closes": 32.89,
+   "right_where_one_closes": 96.262
+  },
+  "letter in word alone": {
+   "closes": 96.19,
+   "truth_among_closures": 99.205,
+   "letters_per_closure": 5.149,
+   "one_letter_closes": 45.17,
+   "right_where_one_closes": 99.175
+  }
+ },
+ "complete": {
+  "closes": 96.2,
+  "truth_among_closures": 96.255,
+  "of_all_letters_truth_among_closures": 92.596,
+  "single_closure": 71.27,
+  "right_where_single": 96.506,
+  "count_label_(letter_met_most)_right_of_all": 87.109,
+  "word_in_webster": {
+   "closes": 100.0,
+   "truth_among_closures": 97.075
+  },
+  "word_not_in_webster": {
+   "share": 4.75,
+   "closes": 19.92,
+   "truth_among_closures": 13.743
+  }
+ },
+ "seconds": 40
+}

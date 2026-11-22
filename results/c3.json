@@ -1,0 +1,156 @@
+{
+ "categories": [
+  "animal",
+  "plant",
+  "mammal",
+  "bird",
+  "fish",
+  "insect",
+  "reptile",
+  "mollusk",
+  "tree",
+  "shrub",
+  "fruit",
+  "vegetable",
+  "disease",
+  "metal",
+  "mineral",
+  "vehicle",
+  "weapon",
+  "tool",
+  "building",
+  "fabric",
+  "instrument"
+ ],
+ "test_nouns": 4000,
+ "pairs": 84000,
+ "positive_pairs": 2804,
+ "trained_parameters": 14544600,
+ "reader": {
+  "auc": 0.8063,
+  "D=1": {
+   "recall_%": 23.4,
+   "precision_%": 66.73,
+   "accuracy_%": 97.05
+  },
+  "D=2": {
+   "recall_%": 43.08,
+   "precision_%": 38.18,
+   "accuracy_%": 95.77
+  },
+  "D=3": {
+   "recall_%": 59.31,
+   "precision_%": 24.59,
+   "accuracy_%": 92.57
+  },
+  "D=4": {
+   "recall_%": 69.61,
+   "precision_%": 14.77,
+   "accuracy_%": 85.58
+  },
+  "by_category_D=4": {
+   "animal": {
+    "recall_%": 69.9
+   },
+   "plant": {
+    "recall_%": 88.4
+   },
+   "mammal": {
+    "recall_%": 47.6
+   },
+   "bird": {
+    "recall_%": 82.2
+   },
+   "fish": {
+    "recall_%": 84.0
+   },
+   "insect": {
+    "recall_%": 56.0
+   },
+   "reptile": {
+    "recall_%": 78.9
+   },
+   "mollusk": {
+    "recall_%": 50.0
+   },
+   "tree": {
+    "recall_%": 83.3
+   },
+   "shrub": {
+    "recall_%": 53.6
+   },
+   "fruit": {
+    "recall_%": 70.8
+   },
+   "vegetable": {
+    "recall_%": 53.8
+   },
+   "disease": {
+    "recall_%": 50.0
+   },
+   "metal": {
+    "recall_%": 78.3
+   },
+   "mineral": {
+    "recall_%": 67.7
+   },
+   "vehicle": {
+    "recall_%": 47.4
+   },
+   "weapon": {
+    "recall_%": 67.5
+   },
+   "tool": {
+    "recall_%": 21.3
+   },
+   "building": {
+    "recall_%": 51.8
+   },
+   "fabric": {
+    "recall_%": 67.5
+   },
+   "instrument": {
+    "recall_%": 83.7
+   }
+  }
+ },
+ "trained": {
+  "auc": 0.6785,
+  "at the reader's recall, D=1": {
+   "precision_%": 11.2,
+   "accuracy_%": 91.25
+  },
+  "at the reader's recall, D=2": {
+   "precision_%": 8.45,
+   "accuracy_%": 82.51
+  },
+  "at the reader's recall, D=3": {
+   "precision_%": 7.14,
+   "accuracy_%": 72.91
+  },
+  "at the reader's recall, D=4": {
+   "precision_%": 5.99,
+   "accuracy_%": 62.49
+  }
+ },
+ "examples_reader_yes": [
+  "bonduc -> plant in 2",
+  "bonduc -> tree in 1",
+  "turmeric -> plant in 1",
+  "burdock -> plant in 2",
+  "burdock -> shrub in 3",
+  "widgeon -> animal in 4",
+  "widgeon -> bird in 3",
+  "stiltbird -> animal in 3"
+ ],
+ "examples_reader_wrong_yes": [
+  "bonduc -> vegetable in 3: See Nicker tree",
+  "bonduc -> building in 3: See Nicker tree",
+  "placket -> building in 4: A petticoat, esp",
+  "placket -> instrument in 4: A petticoat, esp",
+  "turmeric -> animal in 3: An East Indian plant of the genus Curcuma, of the Ginger fam",
+  "turmeric -> vegetable in 2: An East Indian plant of the genus Curcuma, of the Ginger fam",
+  "turmeric -> building in 4: An East Indian plant of the genus Curcuma, of the Ginger fam",
+  "turmeric -> instrument in 4: An East Indian plant of the genus Curcuma, of the Ginger fam"
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "letters": 16902868,
+ "words": 3568843,
+ "whole": 16102719,
+ "held_out": 799820,
+ "levels": {
+  "letter in word + word before + word after": {
+   "returns": 31.8,
+   "one_letter_closes": 29.36,
+   "right_where_one_closes": 98.823,
+   "truth_among_met": 98.694,
+   "right_letter_met_most": 97.309
+  },
+  "letter in word + word before": {
+   "returns": 66.18,
+   "one_letter_closes": 49.01,
+   "right_where_one_closes": 98.634,
+   "truth_among_met": 98.585,
+   "right_letter_met_most": 94.185
+  },
+  "letter in word + word after": {
+   "returns": 64.4,
+   "one_letter_closes": 48.05,
+   "right_where_one_closes": 98.38,
+   "truth_among_met": 98.33,
+   "right_letter_met_most": 93.821
+  },
+  "letter in word alone": {
+   "returns": 95.91,
+   "one_letter_closes": 46.69,
+   "right_where_one_closes": 99.435,
+   "truth_among_met": 99.576,
+   "right_letter_met_most": 90.625
+  }
+ },
+ "letter in word + word before + word after > letter in word + word before > letter in word + word after > letter in word alone": {
+  "acc": 90.674,
+  "read_by_one_closing_letter": 79.86,
+  "right_where_one_closes": 98.134,
+  "unread": 4.087
+ },
+ "letter in word + word before + word after > letter in word alone": {
+  "acc": 89.076,
+  "read_by_one_closing_letter": 63.27,
+  "right_where_one_closes": 99.04,
+  "unread": 4.087
+ },
+ "letter in word alone": {
+  "acc": 86.921,
+  "read_by_one_closing_letter": 46.69,
+  "right_where_one_closes": 99.435,
+  "unread": 4.087
+ },
+ "seconds": 35
+}

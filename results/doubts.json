@@ -1,0 +1,68 @@
+{
+ "A: what kind of thing is X": {
+  "reader, first sense": {
+   "positives_answered_%": 89.75,
+   "truth_among_answer_%": 70.7,
+   "answer_size_mean": 1.32,
+   "single_answer_%": 77.66,
+   "single_right_%": 72.74,
+   "answered_with_no_category_true_(negatives answered)_%": 64.2,
+   "depth_of_answer": {
+    "1": 723,
+    "3": 315,
+    "4": 169,
+    "2": 588
+   },
+   "word2vec 100d, 5 passes: truth in its top-k, k = reader's answer size": 26.8,
+   "word2vec 100d, 5 passes: top-1 right on all 2000 positives": 23.55,
+   "word2vec 100d, 5 passes: negatives answered at the same answer rate %": 100.0,
+   "word2vec 300d, 10 passes: truth in its top-k, k = reader's answer size": 34.32,
+   "word2vec 300d, 10 passes: top-1 right on all 2000 positives": 30.75,
+   "word2vec 300d, 10 passes: negatives answered at the same answer rate %": 100.0
+  },
+  "reader, every sense": {
+   "positives_answered_%": 98.55,
+   "truth_among_answer_%": 78.08,
+   "answer_size_mean": 2.37,
+   "single_answer_%": 54.54,
+   "single_right_%": 78.05,
+   "answered_with_no_category_true_(negatives answered)_%": 96.65,
+   "depth_of_answer": {
+    "1": 873,
+    "2": 855,
+    "3": 218,
+    "4": 25
+   },
+   "word2vec 100d, 5 passes: truth in its top-k, k = reader's answer size": 35.87,
+   "word2vec 100d, 5 passes: top-1 right on all 2000 positives": 23.55,
+   "word2vec 100d, 5 passes: negatives answered at the same answer rate %": 100.0,
+   "word2vec 300d, 10 passes: truth in its top-k, k = reader's answer size": 43.13,
+   "word2vec 300d, 10 passes: top-1 right on all 2000 positives": 30.75,
+   "word2vec 300d, 10 passes: negatives answered at the same answer rate %": 100.0
+  }
+ },
+ "B: stronger trained next-letter model": {
+  "parameters": 345626,
+  "epochs": [
+   {
+    "epoch": 1,
+    "train_bits": 2.7486,
+    "webster_held_out_bits": 2.5276
+   },
+   {
+    "epoch": 2,
+    "train_bits": 2.4543,
+    "webster_held_out_bits": 2.452
+   }
+  ],
+  "wikipedia_bits_per_letter": 2.6144,
+  "wikipedia_top1_%": 43.55,
+  "first_letter_bits": 4.061,
+  "later_letters_bits": 2.226,
+  "reader_bits_same_letters": 2.3448,
+  "reader_top1_%": 49.73,
+  "reader_first_letter_bits": 4.028,
+  "reader_later_bits": 1.893,
+  "small_trained_model_bits": 2.7769
+ }
+}

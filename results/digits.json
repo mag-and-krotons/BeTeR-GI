@@ -1,0 +1,20 @@
+[
+ {
+  "seed": 0,
+  "k": 6,
+  "accuracy_%": 98.14,
+  "published_%": 98.14
+ },
+ {
+  "seed": 1,
+  "k": 6,
+  "accuracy_%": 97.59,
+  "published_%": 97.59
+ },
+ {
+  "seed": 2,
+  "k": 7,
+  "accuracy_%": 98.52,
+  "published_%": 98.52
+ }
+]

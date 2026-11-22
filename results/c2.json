@@ -1,0 +1,52 @@
+{
+ "letters": 1651054,
+ "trained_parameters": 117530,
+ "reader_bits_per_letter": 2.3448,
+ "trained_bits_per_letter": 2.7769,
+ "reader_top1_%": 49.73,
+ "trained_top1_%": 39.92,
+ "reader_bits_adding_each_level": {
+  "unigram": 4.1673,
+  "1": 3.56,
+  "3": 3.0505,
+  "4 and 3": 2.6335,
+  "whole prefix": 2.4047,
+  "whole prefix + word before": 2.3448
+ },
+ "by_deepest_level_that_returned": {
+  "1": {
+   "share_%": 0.01,
+   "reader_bits": 5.053,
+   "trained_bits": 5.181
+  },
+  "3": {
+   "share_%": 0.03,
+   "reader_bits": 5.346,
+   "trained_bits": 5.175
+  },
+  "4 and 3": {
+   "share_%": 0.76,
+   "reader_bits": 3.884,
+   "trained_bits": 2.85
+  },
+  "whole prefix": {
+   "share_%": 30.6,
+   "reader_bits": 1.802,
+   "trained_bits": 2.594
+  },
+  "whole prefix + word before": {
+   "share_%": 68.6,
+   "reader_bits": 2.568,
+   "trained_bits": 2.856
+  }
+ },
+ "first_letter_of_word": {
+  "reader_bits": 4.028,
+  "trained_bits": 4.091
+ },
+ "later_letters": {
+  "reader_bits": 1.893,
+  "trained_bits": 2.424
+ },
+ "letters_where_reader_has_fewer_bits_%": 65.0
+}

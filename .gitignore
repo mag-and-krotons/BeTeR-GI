@@ -1,0 +1,5 @@
+data/*.json
+!data/stack6_published.json
+data/*.txt
+data/*.tes
+__pycache__/

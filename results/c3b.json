@@ -1,0 +1,156 @@
+{
+ "categories": [
+  "animal",
+  "plant",
+  "mammal",
+  "bird",
+  "fish",
+  "insect",
+  "reptile",
+  "mollusk",
+  "tree",
+  "shrub",
+  "fruit",
+  "vegetable",
+  "disease",
+  "metal",
+  "mineral",
+  "vehicle",
+  "weapon",
+  "tool",
+  "building",
+  "fabric",
+  "instrument"
+ ],
+ "test_nouns": 4000,
+ "pairs": 84000,
+ "positive_pairs": 3030,
+ "trained_parameters": 14544600,
+ "reader": {
+  "auc": 0.8063,
+  "D=1": {
+   "recall_%": 25.51,
+   "precision_%": 62.29,
+   "accuracy_%": 96.76
+  },
+  "D=2": {
+   "recall_%": 61.12,
+   "precision_%": 19.42,
+   "accuracy_%": 89.45
+  },
+  "D=3": {
+   "recall_%": 87.0,
+   "precision_%": 6.16,
+   "accuracy_%": 51.7
+  },
+  "D=4": {
+   "recall_%": 96.37,
+   "precision_%": 3.94,
+   "accuracy_%": 15.07
+  },
+  "by_category_D=4": {
+   "animal": {
+    "recall_%": 97.0
+   },
+   "plant": {
+    "recall_%": 99.4
+   },
+   "mammal": {
+    "recall_%": 85.0
+   },
+   "bird": {
+    "recall_%": 95.9
+   },
+   "fish": {
+    "recall_%": 97.7
+   },
+   "insect": {
+    "recall_%": 97.3
+   },
+   "reptile": {
+    "recall_%": 87.0
+   },
+   "mollusk": {
+    "recall_%": 90.9
+   },
+   "tree": {
+    "recall_%": 98.1
+   },
+   "shrub": {
+    "recall_%": 95.8
+   },
+   "fruit": {
+    "recall_%": 98.1
+   },
+   "vegetable": {
+    "recall_%": 100.0
+   },
+   "disease": {
+    "recall_%": 97.0
+   },
+   "metal": {
+    "recall_%": 98.3
+   },
+   "mineral": {
+    "recall_%": 100.0
+   },
+   "vehicle": {
+    "recall_%": 91.7
+   },
+   "weapon": {
+    "recall_%": 97.7
+   },
+   "tool": {
+    "recall_%": 100.0
+   },
+   "building": {
+    "recall_%": 96.7
+   },
+   "fabric": {
+    "recall_%": 98.1
+   },
+   "instrument": {
+    "recall_%": 97.8
+   }
+  }
+ },
+ "trained": {
+  "auc": 0.6876,
+  "at the reader's recall, D=1": {
+   "precision_%": 11.92,
+   "accuracy_%": 90.51
+  },
+  "at the reader's recall, D=2": {
+   "precision_%": 7.53,
+   "accuracy_%": 71.54
+  },
+  "at the reader's recall, D=3": {
+   "precision_%": 3.61,
+   "accuracy_%": 3.61
+  },
+  "at the reader's recall, D=4": {
+   "precision_%": 3.61,
+   "accuracy_%": 3.61
+  }
+ },
+ "examples_reader_yes": [
+  "buttonwood -> plant in 2",
+  "buttonwood -> tree in 1",
+  "pongee -> fabric in 1",
+  "siren -> animal in 2",
+  "cavy -> animal in 3",
+  "swede -> plant in 2",
+  "swede -> vegetable in 3",
+  "woad -> plant in 1"
+ ],
+ "examples_reader_wrong_yes": [
+  "buttonwood -> animal in 3: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> mammal in 4: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> bird in 3: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> fish in 3: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> insect in 3: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> reptile in 4: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> mollusk in 4: The Platanus occidentalis, or American plane tree, a large t",
+  "buttonwood -> shrub in 3: The Platanus occidentalis, or American plane tree, a large t"
+ ]
+}

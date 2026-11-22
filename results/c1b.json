@@ -1,0 +1,74 @@
+{
+ "removed from the whole": {
+  "letters": 172718,
+  "word level alone": {
+   "closes_%": 61.78,
+   "truth_among_%": 14.2,
+   "size_mean": 3.64,
+   "size_median": 2.0,
+   "trained_top_k_same_size_%": 55.97
+  },
+  "walk within the word alone": {
+   "closes_%": 100.0,
+   "truth_among_%": 56.65,
+   "size_mean": 6.78,
+   "size_median": 4.0,
+   "trained_top_k_same_size_%": 81.24
+  },
+  "both members": {
+   "closes_%": 100.0,
+   "truth_among_%": 56.65,
+   "size_mean": 6.78,
+   "size_median": 4.0,
+   "trained_top_k_same_size_%": 81.25
+  }
+ },
+ "never in Webster": {
+  "letters": 78391,
+  "word level alone": {
+   "closes_%": 18.95,
+   "truth_among_%": 12.54,
+   "size_mean": 2.58,
+   "size_median": 1.0,
+   "trained_top_k_same_size_%": 25.31
+  },
+  "walk within the word alone": {
+   "closes_%": 100.0,
+   "truth_among_%": 66.39,
+   "size_mean": 5.25,
+   "size_median": 2.0,
+   "trained_top_k_same_size_%": 63.62
+  },
+  "both members": {
+   "closes_%": 100.0,
+   "truth_among_%": 66.41,
+   "size_mean": 5.26,
+   "size_median": 2.0,
+   "trained_top_k_same_size_%": 63.65
+  }
+ },
+ "in Webster (200,000 sampled)": {
+  "letters": 200000,
+  "word level alone": {
+   "closes_%": 100.0,
+   "truth_among_%": 97.83,
+   "size_mean": 1.88,
+   "size_median": 1.0,
+   "trained_top_k_same_size_%": 77.15
+  },
+  "walk within the word alone": {
+   "closes_%": 100.0,
+   "truth_among_%": 100.0,
+   "size_mean": 5.59,
+   "size_median": 3.0,
+   "trained_top_k_same_size_%": 87.01
+  },
+  "both members": {
+   "closes_%": 100.0,
+   "truth_among_%": 100.0,
+   "size_mean": 5.59,
+   "size_median": 3.0,
+   "trained_top_k_same_size_%": 87.02
+  }
+ }
+}

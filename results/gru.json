@@ -1,0 +1,27 @@
+{
+ "parameters": 225307,
+ "train_symbols": 19471616,
+ "epochs": [
+  {
+   "pass": 1,
+   "train_bits_per_symbol": 2.4507,
+   "webster_held_out_bits_per_letter": 2.3197
+  },
+  {
+   "pass": 2,
+   "train_bits_per_symbol": 2.047,
+   "webster_held_out_bits_per_letter": 2.2429
+  }
+ ],
+ "wikipedia_letters": 1651052,
+ "wikipedia_bits_per_letter": 2.4394,
+ "first_letter_bits": 4.103,
+ "later_letter_bits": 1.993,
+ "top1_%": 47.3,
+ "reader": {
+  "bits_per_letter": 2.3448,
+  "first": 4.028,
+  "later": 1.893,
+  "top1_%": 49.73
+ }
+}
