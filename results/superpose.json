@@ -1,0 +1,83 @@
+{
+ "removed from the whole": {
+  "letters": 172718,
+  "seen_by_observers_mean": 7.25,
+  "superposition": {
+   "reads_%": 100.0,
+   "truth_at_peak_%": 49.68,
+   "peak_size_mean": 5.92,
+   "single_peak_%": 34.64,
+   "right_where_single_%": 66.57,
+   "truth_in_top_k_by_signal_k_=_trained_comparison": null
+  },
+  "trained_top_k_same_size_%": 77.49,
+  "trained_top1_where_single_%": 62.18,
+  "previous_reader (structure order, both members)": {
+   "closes_%": 100.0,
+   "truth_among_%": 56.65,
+   "size_mean": 6.78,
+   "size_median": 4.0,
+   "trained_top_k_same_size_%": 81.25
+  },
+  "superposition top-1 by signal %": 49.68,
+  "trained top-1 %": 45.16,
+  "superposition top-3 by signal %": 66.66,
+  "trained top-3 %": 77.13,
+  "superposition top-5 by signal %": 78.12,
+  "trained top-5 %": 89.02
+ },
+ "never in Webster": {
+  "letters": 78391,
+  "seen_by_observers_mean": 9.67,
+  "superposition": {
+   "reads_%": 100.0,
+   "truth_at_peak_%": 61.06,
+   "peak_size_mean": 2.76,
+   "single_peak_%": 52.06,
+   "right_where_single_%": 58.86,
+   "truth_in_top_k_by_signal_k_=_trained_comparison": null
+  },
+  "trained_top_k_same_size_%": 53.13,
+  "trained_top1_where_single_%": 45.18,
+  "previous_reader (structure order, both members)": {
+   "closes_%": 100.0,
+   "truth_among_%": 66.41,
+   "size_mean": 5.26,
+   "size_median": 2.0,
+   "trained_top_k_same_size_%": 63.65
+  },
+  "superposition top-1 by signal %": 61.06,
+  "trained top-1 %": 38.34,
+  "superposition top-3 by signal %": 80.48,
+  "trained top-3 %": 64.61,
+  "superposition top-5 by signal %": 88.4,
+  "trained top-5 %": 77.28
+ },
+ "in Webster (200,000 sampled)": {
+  "letters": 200000,
+  "seen_by_observers_mean": 8.77,
+  "superposition": {
+   "reads_%": 100.0,
+   "truth_at_peak_%": 100.0,
+   "peak_size_mean": 4.7,
+   "single_peak_%": 49.3,
+   "right_where_single_%": 100.0,
+   "truth_in_top_k_by_signal_k_=_trained_comparison": null
+  },
+  "trained_top_k_same_size_%": 82.2,
+  "trained_top1_where_single_%": 72.38,
+  "previous_reader (structure order, both members)": {
+   "closes_%": 100.0,
+   "truth_among_%": 100.0,
+   "size_mean": 5.59,
+   "size_median": 3.0,
+   "trained_top_k_same_size_%": 87.02
+  },
+  "superposition top-1 by signal %": 100.0,
+  "trained top-1 %": 70.97,
+  "superposition top-3 by signal %": 100.0,
+  "trained top-3 %": 88.65,
+  "superposition top-5 by signal %": 100.0,
+  "trained top-5 %": 94.11
+ }
+}

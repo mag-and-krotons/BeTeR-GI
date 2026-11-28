@@ -39,6 +39,18 @@ Every number is reproduced by the script named. Trained models were trained on t
 The digit reading of BeTeR-Intelligence is reproduced exactly (`digits.py`: 98.14 / 97.59 / 98.52 %, zero
 readings differ).
 
+### The superposition reader (`gi/superpose.py`, `run_superpose.py`)
+
+As a fly's lamina cartridge sums the receptors that look at one point, a letter is read by every observer that sees it
+from inside its word (up to 4 letters before and after, edges marked at silence, and the whole word), each closing on its
+own walk, their readings summed unweighted. Same reduced whole and letters as `c1b.py`:
+
+| letters whose word is… | truth at the peak (peak size) | trained, same size | single peak: reader / trained first guess |
+|---|---|---|---|
+| never in Webster | **61.1 %** (2.8) | 53.1 % | **58.9 %** / 45.2 % |
+| in Webster | **100 %** (4.7) | 82.2 % | **100 %** / 72.4 % |
+| removed from the whole | 49.7 % (5.9) | 77.5 % | **66.6 %** / 62.2 % |
+
 Open: words the whole does not hold, and answering "none" where no category applies.
 
 ## Reproduce
